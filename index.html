@@ -1,1 +1,31 @@
-<h1>Hello World!</h1>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cousin Remover</title>
+  </head>
+  <body>
+    <div id="longRelation">
+      My:
+      <div>
+        <button name="mother" onclick="addRelation(event)" valuetype="button">
+          Mother's
+        </button>
+        <button name="father" onclick="addRelation(event)" valuetype="button">
+          Father's
+        </button>
+        <button name="sister" onclick="addRelation(event)" valuetype="button">
+          Sister's
+        </button>
+        <button name="brother" onclick="addRelation(event)" valuetype="button">
+          Brother's
+        </button>
+      </div>
+      <div>is my:</div>
+      <div id="shortRelation">SomeText</div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
